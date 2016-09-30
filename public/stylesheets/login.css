@@ -1,0 +1,26 @@
+.login {
+	text-align: center;
+}
+.login *{
+	font-family: 'Open Sans'!important;
+}
+.login .logo {
+	width: 100%;
+	max-width: 300px;
+	margin-top: 300px;
+}
+.login .btn-in {
+	margin-top: 360px;
+}
+
+@media (max-width: 840px) {
+	.login .logo {
+		margin-top: 100px;
+	}
+}
+
+@media (max-width: 840px) {
+	.login .btn-in {
+		margin-top: 100px;
+	}
+} 
